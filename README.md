@@ -2,6 +2,11 @@
 
 Solidity smart contracts for WCHAN token, built with [Foundry](https://book.getfoundry.sh/).
 
+## Foundry libraries
+
+Install libraries as Git submodules with `forge install <org>/<repo>` from this
+repository root. Do not use `--no-git`. See [CLAUDE.md](./CLAUDE.md).
+
 ## Setup
 
 ```bash
