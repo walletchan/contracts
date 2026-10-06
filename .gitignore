@@ -1,0 +1,29 @@
+# Compiler files
+cache/
+out/
+
+# Broadcast logs
+broadcast/
+
+# Docs
+docs/
+
+lcov.info
+
+# Dotenv file
+.env
+
+# Static analysis output
+static_analysis_semgrep_*/
+
+node_modules/
+dist/
+build/
+.ponder/
+generated/
+.env
+.env.*
+!.env*.example
+*.tsbuildinfo
+.DS_Store
+.pnpm-store/

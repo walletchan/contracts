@@ -1,0 +1,25 @@
+{
+  "name": "@walletchan/contracts",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "build": "forge build",
+    "test": "forge test",
+    "test:v": "forge test -vvv",
+    "snapshot": "forge snapshot",
+    "fmt": "forge fmt",
+    "fmt:check": "forge fmt --check",
+    "clean": "forge clean",
+    "sync:addresses": "tsx scripts/sync-addresses.ts",
+    "typecheck:addresses": "pnpm --filter @walletchan/contract-addresses exec tsc --noEmit"
+  },
+  "packageManager": "pnpm@9.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/walletchan/contracts.git"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.0",
+    "typescript": "^5.3.3"
+  }
+}
