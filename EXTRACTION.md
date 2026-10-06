@@ -28,3 +28,11 @@ See `package.json` for dependencies. External services and public contract addre
 - [ipfs/tokenURI-ipfs-CID.md](./ipfs/tokenURI-ipfs-CID.md)
 
 Shared product/integration docs remain in the [main repo](https://github.com/walletchan/walletchan/tree/1ad4346e5d20994fa7457facaef7e389244d6290/_docs). Copies here retain their original context; they do not authorize a deployment.
+
+## Extraction validation
+
+Public address generation and address-package typecheck passed. The Foundry suite passed 464 tests; the fork suite could not initialize because `BASE_RPC_URL` was not configured. No deployment or signing operation was performed.
+
+## Public addresses
+
+The public `packages/contract-addresses` artifact and `scripts/sync-addresses.ts` live here so the public vault indexer can pin deployment addresses without private-repo access. The generator reads this repo's `addresses.json`. Existing main-repo generation and deployed addresses are untouched.
